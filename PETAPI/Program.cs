@@ -14,4 +14,10 @@ app.UseAuthorization();
 
 app.MapControllers();
 
+app.MapControllerRoute(
+    name: "ping",
+    pattern: "ping",
+    defaults: new { controller = "Ping", action = "Ping" }
+);
+
 app.Run();
