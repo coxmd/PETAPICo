@@ -1,0 +1,6 @@
+@PETAPI_HostAddress = http://localhost:5159
+
+GET {{PETAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
